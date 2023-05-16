@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+celery = "==5.2.3"
+django = "==3.2.12"
+django-celery-beat = "==2.3.0"
+django-celery-results = "==2.4.0"
+django-cors-headers = "==3.11.0"
+django-filter = "==21.1"
+django-simple-history = "==3.0.0"
+djangorestframework = "==3.13.1"
+djangorestframework-simplejwt = "==5.1.0"
+drf-yasg = "==1.21.3"
+psutil = "==5.9.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.9"

@@ -1,0 +1,498 @@
+[
+    {
+      "model": "system.permission",
+      "pk": 1,
+      "fields": {
+        "create_time": "2020-05-14T10:03:00Z",
+        "update_time": "2020-05-16T15:28:13.208Z",
+        "is_deleted": false,
+        "name": "用户管理",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 5,
+        "method": "user_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 2,
+      "fields": {
+        "create_time": "2020-05-14T10:04:00Z",
+        "update_time": "2020-05-16T14:18:40.148Z",
+        "is_deleted": false,
+        "name": "新增用户",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 1,
+        "method": "user_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 3,
+      "fields": {
+        "create_time": "2020-05-14T10:04:00Z",
+        "update_time": "2020-05-14T10:05:56.206Z",
+        "is_deleted": false,
+        "name": "编辑用户",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 1,
+        "method": "user_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 4,
+      "fields": {
+        "create_time": "2020-05-14T10:05:00Z",
+        "update_time": "2020-05-14T10:05:51.157Z",
+        "is_deleted": false,
+        "name": "删除用户",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 1,
+        "method": "user_delete"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 5,
+      "fields": {
+        "create_time": "2020-05-14T10:06:00Z",
+        "update_time": "2020-05-14T10:06:41.635Z",
+        "is_deleted": false,
+        "name": "系统管理",
+        "type": "目录",
+        "is_frame": false,
+        "sort": 1,
+        "parent": null,
+        "method": "system_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 6,
+      "fields": {
+        "create_time": "2020-05-16T14:11:33Z",
+        "update_time": "2020-11-03T04:05:33.812Z",
+        "is_deleted": false,
+        "name": "部门管理",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 5,
+        "method": "org_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 8,
+      "fields": {
+        "create_time": "2020-05-16T14:20:28.582Z",
+        "update_time": "2020-05-16T14:20:28.582Z",
+        "is_deleted": false,
+        "name": "新增部门",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 6,
+        "method": "org_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 9,
+      "fields": {
+        "create_time": "2020-05-16T14:20:48.772Z",
+        "update_time": "2020-05-16T14:20:48.773Z",
+        "is_deleted": false,
+        "name": "编辑部门",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 6,
+        "method": "org_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 10,
+      "fields": {
+        "create_time": "2020-05-16T14:21:14.722Z",
+        "update_time": "2020-05-16T14:21:14.723Z",
+        "is_deleted": false,
+        "name": "删除部门",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 6,
+        "method": "org_delete"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 11,
+      "fields": {
+        "create_time": "2020-05-16T14:21:43.163Z",
+        "update_time": "2020-05-16T14:21:43.163Z",
+        "is_deleted": false,
+        "name": "角色管理",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 5,
+        "method": "role_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 12,
+      "fields": {
+        "create_time": "2020-05-16T14:22:02.087Z",
+        "update_time": "2020-05-16T14:22:02.087Z",
+        "is_deleted": false,
+        "name": "岗位管理",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 5,
+        "method": "position_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 13,
+      "fields": {
+        "create_time": "2020-05-16T14:24:25.480Z",
+        "update_time": "2020-05-16T14:24:25.480Z",
+        "is_deleted": false,
+        "name": "数据字典",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 5,
+        "method": "dict_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 14,
+      "fields": {
+        "create_time": "2020-05-16T14:24:50Z",
+        "update_time": "2020-05-16T14:25:38.473Z",
+        "is_deleted": false,
+        "name": "开发配置",
+        "type": "目录",
+        "is_frame": false,
+        "sort": 1,
+        "parent": null,
+        "method": "dev_set"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 15,
+      "fields": {
+        "create_time": "2020-05-16T14:25:17.244Z",
+        "update_time": "2020-05-16T14:25:17.245Z",
+        "is_deleted": false,
+        "name": "权限菜单",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 14,
+        "method": "perm_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 16,
+      "fields": {
+        "create_time": "2020-05-16T14:26:06.322Z",
+        "update_time": "2020-05-16T14:26:06.322Z",
+        "is_deleted": false,
+        "name": "接口文档",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 14,
+        "method": "dev_docs"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 17,
+      "fields": {
+        "create_time": "2020-05-16T14:26:35.902Z",
+        "update_time": "2020-05-16T14:26:35.903Z",
+        "is_deleted": false,
+        "name": "新建权限",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 15,
+        "method": "perm_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 18,
+      "fields": {
+        "create_time": "2020-05-16T14:26:59Z",
+        "update_time": "2020-05-16T14:27:08.114Z",
+        "is_deleted": false,
+        "name": "编辑权限",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 15,
+        "method": "perm_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 19,
+      "fields": {
+        "create_time": "2020-05-16T14:27:29.245Z",
+        "update_time": "2020-05-16T14:27:29.245Z",
+        "is_deleted": false,
+        "name": "删除权限",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 15,
+        "method": "perm_delete"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 20,
+      "fields": {
+        "create_time": "2020-05-16T14:28:49.606Z",
+        "update_time": "2020-05-16T14:28:49.606Z",
+        "is_deleted": false,
+        "name": "新建角色",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 11,
+        "method": "role_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 21,
+      "fields": {
+        "create_time": "2020-05-16T14:29:25.424Z",
+        "update_time": "2020-05-16T14:29:25.424Z",
+        "is_deleted": false,
+        "name": "编辑角色",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 11,
+        "method": "role_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 22,
+      "fields": {
+        "create_time": "2020-05-16T14:29:59.108Z",
+        "update_time": "2020-05-16T14:29:59.108Z",
+        "is_deleted": false,
+        "name": "删除角色",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 11,
+        "method": "role_delete"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 23,
+      "fields": {
+        "create_time": "2020-05-16T14:31:28.635Z",
+        "update_time": "2020-05-16T14:31:28.635Z",
+        "is_deleted": false,
+        "name": "新建岗位",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 12,
+        "method": "position_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 24,
+      "fields": {
+        "create_time": "2020-05-16T14:32:27.506Z",
+        "update_time": "2020-05-16T14:32:27.506Z",
+        "is_deleted": false,
+        "name": "编辑岗位",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 12,
+        "method": "position_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 25,
+      "fields": {
+        "create_time": "2020-05-16T14:32:52Z",
+        "update_time": "2020-05-16T14:33:00.166Z",
+        "is_deleted": false,
+        "name": "删除岗位",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 12,
+        "method": "position_delete"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 26,
+      "fields": {
+        "create_time": "2020-05-16T14:34:27.956Z",
+        "update_time": "2020-05-16T14:34:27.957Z",
+        "is_deleted": false,
+        "name": "新建字典类型",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 13,
+        "method": "dicttype_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 27,
+      "fields": {
+        "create_time": "2020-05-16T14:34:50.126Z",
+        "update_time": "2020-05-16T14:34:50.127Z",
+        "is_deleted": false,
+        "name": "编辑字典类型",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 13,
+        "method": "dicttype_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 28,
+      "fields": {
+        "create_time": "2020-05-16T14:35:06.146Z",
+        "update_time": "2020-05-16T14:35:06.147Z",
+        "is_deleted": false,
+        "name": "新建字典",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 13,
+        "method": "dict_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 29,
+      "fields": {
+        "create_time": "2020-05-16T14:35:21.938Z",
+        "update_time": "2020-05-16T14:35:21.939Z",
+        "is_deleted": false,
+        "name": "编辑字典",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 13,
+        "method": "dict_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 30,
+      "fields": {
+        "create_time": "2020-05-16T14:35:38.059Z",
+        "update_time": "2020-05-16T14:35:38.060Z",
+        "is_deleted": false,
+        "name": "删除字典",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 13,
+        "method": "dict_delete"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 31,
+      "fields": {
+        "create_time": "2020-12-16T13:43:12Z",
+        "update_time": "2020-12-16T13:46:03.158Z",
+        "is_deleted": false,
+        "name": "定时任务",
+        "type": "菜单",
+        "is_frame": false,
+        "sort": 2,
+        "parent": 5,
+        "method": "ptask_manage"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 32,
+      "fields": {
+        "create_time": "2020-12-16T13:43:37.247Z",
+        "update_time": "2020-12-16T13:43:37.248Z",
+        "is_deleted": false,
+        "name": "新增定时任务",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 1,
+        "parent": 31,
+        "method": "ptask_create"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 33,
+      "fields": {
+        "create_time": "2020-12-16T13:44:03.800Z",
+        "update_time": "2020-12-16T13:44:03.800Z",
+        "is_deleted": false,
+        "name": "编辑定时任务",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 2,
+        "parent": 31,
+        "method": "ptask_update"
+      }
+    },
+    {
+      "model": "system.permission",
+      "pk": 34,
+      "fields": {
+        "create_time": "2020-12-16T13:44:32.149Z",
+        "update_time": "2020-12-16T13:44:32.149Z",
+        "is_deleted": false,
+        "name": "删除定时任务",
+        "type": "接口",
+        "is_frame": false,
+        "sort": 3,
+        "parent": 31,
+        "method": "ptask_delete"
+      }
+    }
+    ]
+    
